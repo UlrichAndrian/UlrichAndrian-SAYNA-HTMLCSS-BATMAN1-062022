@@ -1,5 +1,6 @@
 Body {
     background-color: #0D0E09;
+    margin: 0%;
 }
 
 .header {
@@ -8,3 +9,23 @@ Body {
     background: url(assets/Illustrations/Bathome1.png) no-repeat;
     background-size: cover;
 }
+.corps {
+    margin: 0 auto;
+    width: 80%;
+    height: 250px;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    border-style: solid;
+    border-width: 2.5px;
+    border-color: rgba(255, 255, 255, 0.839);
+    opacity: 15%;
+    z-index: auto;
+}
+.logo {
+        filter: opacity(100%) drop-shadow(rgb(255, 255, 255));
+}
+.menu {
+    float: right;
+    width: 150px;
+ }
