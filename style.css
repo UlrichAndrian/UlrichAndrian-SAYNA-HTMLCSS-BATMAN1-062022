@@ -8,6 +8,8 @@ Body {
     height: 1300px;
     background: url(assets/Illustrations/Bathome1.png) no-repeat;
     background-size: cover;
+    opacity: 45%;
+    z-index: -999;
 }
 .corps {
     margin: 0 auto;
@@ -19,7 +21,18 @@ Body {
     border-style: solid;
     border-width: 2.5px;
     border-color: rgba(255, 255, 255, 0.839);
-    opacity: 15%;
+    z-index: auto;
+}
+.corps2 {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    border-style: solid;
+    border-width: 2.5px;
+    border-color: rgba(255, 255, 255, 0.839);
     z-index: auto;
 }
 .logo {
