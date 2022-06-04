@@ -1,3 +1,10 @@
 Body {
     background-color: #0D0E09;
 }
+
+.header {
+    width: 100%;
+    height: 1300px;
+    background: url(assets/Illustrations/Bathome1.png) no-repeat;
+    background-size: cover;
+}
