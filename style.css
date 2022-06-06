@@ -97,3 +97,26 @@ p {
     z-index: 999;
     margin-right: -220px;
 }
+.allie {
+    margin-top: 80px;
+}
+.justiceleague {
+    padding-top: 250px;
+    margin-left: 100px;
+}
+.couverture {
+    width: 2000px;
+    height: 700px;
+    margin-left: -250px;
+    background: url(assets/Illustrations/Bathome11.png) no-repeat;
+    background-size: cover;
+    z-index: 999;
+}
+.dov {
+    width: 100%;
+    background: #000000;
+    background-size: cover;
+    height: 100px;
+    z-index:999;
+    
+}
