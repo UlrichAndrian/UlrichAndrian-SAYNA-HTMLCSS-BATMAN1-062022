@@ -1,15 +1,38 @@
 Body {
-    background-color: #0D0E09;
+    background-color: #000000;
     margin: 0%;
+    color: aliceblue;
 }
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 36px;
+}
+button {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+}
+h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;
+}
+p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
 
 .header {
     width: 100%;
-    height: 1300px;
+    height: 1250px;
     background: url(assets/Illustrations/Bathome1.png) no-repeat;
-    background-size: cover;
-    opacity: 45%;
-    z-index: -999;
+    background-size: 2000px 1000px;
+    padding-top: 25px;
 }
 .corps {
     margin: 0 auto;
@@ -25,6 +48,7 @@ Body {
 }
 .corps2 {
     margin: 0 auto;
+    margin-top: -900px;
     width: 80%;
     height: auto;
     padding-right: 5%;
@@ -41,4 +65,35 @@ Body {
 .menu {
     float: right;
     width: 150px;
- }
+}
+.batmanaucine {
+     padding-top: 250px;
+}
+.divimg {
+    text-align: center;
+}
+.img1 {
+    margin-top: -527px;
+}
+.divimg2 {
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    background-color: #941e1e;
+    text-align: center;
+    background: url(assets/Illustrations/Bathome13.png) no-repeat;
+    background-size: 150px 100px;
+}
+.nemesis {
+    margin-top: -105px;
+}
+.batman {
+    background: url(assets/Illustrations/Bathome12.png) no-repeat;
+    width: 500px;
+    height: 500px;
+    background-size: 500px;
+    margin-top: 15px;
+    float: right;
+    z-index: 999;
+    margin-right: -220px;
+}
